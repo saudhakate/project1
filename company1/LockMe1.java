@@ -18,7 +18,7 @@ public class LockMe1 {
 
     public static final String WELCOME_PROMPT =
             "\n Welcome To Lockers Pvt. Ltd."+
-            "\nSaurabh Dhakate\n";
+            "\nDevloper - Saurabh Dhakate\n";
 
     public static final String MAIN_MENU_PROMPT =
             "\nMAIN MENU - Select any of the following: \n"+
