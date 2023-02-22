@@ -18,20 +18,20 @@ public class LockMe1 {
 
     public static final String WELCOME_PROMPT =
             "\n Welcome To Lockers Pvt. Ltd."+
-            "\nDevloper - Saurabh Dhakate\n";
+            "\n Devloper - Saurabh Dhakate\n";
 
     public static final String MAIN_MENU_PROMPT =
             "\nMAIN MENU - Select any of the following: \n"+
-                    "1 -> List files in directory\n"+
-                    "2 -> Add, Delete or Search\n"+
-                    "3 -> Exit Program";
+                    "1 -> Retrieve Files\n"+
+                    "2 -> More Options\n"+
+                    "3 -> Exit";
 
     public static final String SECONDARY_MENU_PROMPT =
             "   \nSelect any of the following: \n"+
-                    "   a -> Add a file\n"+
-                    "   b -> Delete a file\n"+
-                    "   c -> Search a file\n"+
-                    "   d -> GoBack";
+                    "   a -> Add file\n"+
+                    "   b -> Delete file\n"+
+                    "   c -> Search file\n"+
+                    "   d -> Back To Main Menu";
 
     void showPrimaryMenu() {
         System.out.println(MAIN_MENU_PROMPT);
@@ -47,7 +47,7 @@ public class LockMe1 {
                     showSecondaryMenu();
                 }
                 case 3 : {
-                    System.out.println("Thank You");
+                    System.out.println("Thanks For Using App!");
                     System.exit(0);
                 }
                 default: showPrimaryMenu();
